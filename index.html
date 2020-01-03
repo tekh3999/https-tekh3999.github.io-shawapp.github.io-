@@ -400,17 +400,14 @@ window.onload = function(){
 	</div>
 	
 	<a-scene embedded="" artoolkit="sourceType: webcam;" class="" canvas="" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui=""><!--  -->
-		<a-entity
+		
+		<a-camera id="camera" user-height="1.6" gps-position="" compass-rotation="" position="" rotation="" scale="" visible="" camera="" look-controls="" wasd-controls=""><!--  --></a-camera>
+		 <a-entity
 		obj-model="obj:
 		url(obj/box001.obj);
 		mtl:
 		url(obj/box001.mtl)"
 		>
-		<a-camera id="camera" user-height="1.6" gps-position="" compass-rotation="" position="" rotation="" scale="" visible="" camera="" look-controls="" wasd-controls=""><!--  --></a-camera>
-		
-		<a-sphere gps-place="longitude: 37.470155; latitude: 55.153565" position="" rotation="" scale="" visible="" material="" geometry=""></a-sphere>
-		<a-sphere gps-place="longitude: 37.469820; latitude: 55.153653" position="" rotation="" scale="" visible="" material="" geometry=""></a-sphere>
-		
 	<canvas class="a-canvas a-grab-cursor" data-aframe-canvas="true" width="1366" height="1025" style="width: 1366px; height: 1025px;"></canvas>
 	<div class="a-enter-vr embedded" aframe-injected="" style="position: fixed;"><button class="a-enter-vr-button" aframe-injected=""></button></div>
 	<div class="a-orientation-modal a-hidden" aframe-injected="">
